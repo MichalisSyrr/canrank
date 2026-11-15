@@ -26,7 +26,7 @@ export default defineConfig({
         ],
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,svg,png,json}'],
+        globPatterns: ['**/*.{js,css,html,svg,png,json,woff2}'],
         runtimeCaching: [
           {
             // Product photos, kept for offline use once seen.
